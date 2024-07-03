@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #0f0c0c; /* Light background color */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 4%); /* Slightly darker shade of black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile-box {
+    background-color: #000000; /* Black background color for profile box */
+    text-align: center;
+    padding: 20px 15px; /* Adjusted padding for top and bottom */
+    color: #ffffff; /* White text color */
+    position: relative;
+    border-radius: 20px;
+    max-width: 400px; /* Fixed maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth transition if needed */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #ffffff; /* White background */
+    margin-top: 10px; /* Reduced margin top */
+    object-fit: cover;
+    transition: padding 0.3s ease; /* Smooth transition for padding */
+}
+
+.profile-pic:hover {
+    padding: 10px; /* Increased padding on hover */
+}
+
+.profile-box h3 {
+    font-size: 22px;
+    font-weight: normal; /* Normal font weight */
+    margin-top: 10px; /* Reduced margin top */
+    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+}
+
+.profile-box:hover h3 {
+    font-weight: bold; /* Bold font weight on hover */
+}
+.social {
+    margin: 15px 0; /* Reduced margin top and bottom */
+}
+
+.social i {
+    font-size: 24px; /* Reduced icon size */
+    margin: 0 8px; /* Reduced margin */
+    color: #ffffff; /* White icon color */
+}
+
+.social a:hover i {
+    transform: scale(1.1); /* Scale up on hover */
+    color:  #bfb898;; /* Highlight color on hover */
+}
+
+.tech-skills {
+    margin-top: 10px;
+}
+
+.tech-skills h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ffffff; /* White text color */
+}
+
+.tech-skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items horizontally */
+}
+
+.tech-skills li {
+    font-size: 16px; /* Slightly reduced font size */
+    color: #ffffff; /* White text color */
+    margin: 5px; /* Reduced margin for minimal gap */
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s; /* Smooth transition for transform */
+}
+
+.tech-skills li i {
+    margin-right: 3px; /* Reduced margin between icon and text */
+    font-size: 20px; /* Slightly reduced icon size */
+    color: #ffffff; /* White icon color */
+}
+
+.tech-skills li:hover {
+    transform: scale(1.1); /* Slightly enlarge the skill on hover */
+}
+
+.social .fa-linkedin, .social .fa-github, .social .fa-envelope {
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.social .fa-linkedin:hover, .social .fa-github:hover, .social .fa-envelope:hover {
+    color: #bfb898; /* Highlight color on hover */
+}
