@@ -7,68 +7,68 @@
 
 html, body {
     height: 100%;
-    background-color: #0f0c0c; /* Light background color */
+    background-color: #0f0c0c;
 }
 
 .container {
     width: 100%;
     height: 100vh;
-    background-color: hsl(0, 0%, 4%); /* Slightly darker shade of black */
+    background-color: hsl(0, 0%, 4%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 .profile-box {
-    background-color: #000000; /* Black background color for profile box */
+    background-color: #000000;
     text-align: center;
-    padding: 20px 15px; /* Adjusted padding for top and bottom */
-    color: #ffffff; /* White text color */
+    padding: 20px 15px;
+    color: #ffffff;
     position: relative;
     border-radius: 20px;
-    max-width: 400px; /* Fixed maximum width */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
-    transition: background-color 0.3s ease; /* Smooth transition if needed */
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: #ffffff; /* White background */
-    margin-top: 10px; /* Reduced margin top */
+    background: #ffffff;
+    margin-top: 10px;
     object-fit: cover;
-    transition: padding 0.3s ease; /* Smooth transition for padding */
+    transition: padding 0.3s ease;
 }
 
 .profile-pic:hover {
-    padding: 10px; /* Increased padding on hover */
+    padding: 10px;
 }
 
 .profile-box h3 {
     font-size: 22px;
-    font-weight: normal; /* Normal font weight */
-    margin-top: 10px; /* Reduced margin top */
-    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+    font-weight: normal;
+    margin-top: 10px;
+    transition: font-weight 0.3s ease;
 }
 
 .profile-box:hover h3 {
-    font-weight: bold; /* Bold font weight on hover */
+    font-weight: bold;
 }
+
 .social {
-    margin: 15px 0; /* Reduced margin top and bottom */
+    margin: 15px 0;
 }
 
 .social i {
-    font-size: 24px; /* Reduced icon size */
-    margin: 0 8px; /* Reduced margin */
-    color: #ffffff; /* White icon color */
+    font-size: 24px;
+    margin: 0 8px;
+    color: #ffffff;
 }
 
 .social a:hover i {
-    transform: scale(1.1); /* Scale up on hover */
-    color:  #bfb898;; /* Highlight color on hover */
+    transform: scale(1.1);
+    color: #bfb898;
 }
 
 .tech-skills {
@@ -78,40 +78,44 @@ html, body {
 .tech-skills h4 {
     margin-bottom: 10px;
     font-size: 24px;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 .tech-skills ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tech-skills li {
-    font-size: 16px; /* Slightly reduced font size */
-    color: #ffffff; /* White text color */
-    margin: 5px; /* Reduced margin for minimal gap */
+    font-size: 16px;
+    color: #ffffff;
+    margin: 5px;
     display: flex;
     align-items: center;
-    transition: transform 0.3s; /* Smooth transition for transform */
+    transition: transform 0.3s;
 }
 
 .tech-skills li i {
-    margin-right: 3px; /* Reduced margin between icon and text */
-    font-size: 20px; /* Slightly reduced icon size */
-    color: #ffffff; /* White icon color */
+    margin-right: 3px;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .tech-skills li:hover {
-    transform: scale(1.1); /* Slightly enlarge the skill on hover */
+    transform: scale(1.1);
 }
 
-.social .fa-linkedin, .social .fa-github, .social .fa-envelope {
-    transition: color 0.3s ease; /* Smooth transition for color */
+.social .fa-linkedin,
+.social .fa-github,
+.social .fa-envelope {
+    transition: color 0.3s ease;
 }
 
-.social .fa-linkedin:hover, .social .fa-github:hover, .social .fa-envelope:hover {
-    color: #bfb898; /* Highlight color on hover */
+.social .fa-linkedin:hover,
+.social .fa-github:hover,
+.social .fa-envelope:hover {
+    color: #bfb898;
 }
